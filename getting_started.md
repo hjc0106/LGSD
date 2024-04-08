@@ -2,7 +2,7 @@
 
 ## 1: Install mmdetection3d
 
-Install mmdetection3d based instruction.
+Install mmdetection3d based [instruction](https://mmdetection3d.readthedocs.io/en/latest/get_started.html).
 
 - torch==1.13.0+cu117
 - torchvision==0.14.0+cu117
