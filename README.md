@@ -19,7 +19,7 @@ Please refer to [getting_started.md](./getting_started.md) for installation.
 
 # Datasets
 
-We use [DOTAv1.0](https://captain-whu.github.io/DOTA/dataset.html) and [nuScenes](https://www.nuscenes.org/) datasets, please follow the official instructions for set up ([DOTA instruction](https://github.com/open-mmlab/mmrotate/blob/main/tools/data/dota/README.md), [nuScenes instruction](https://mmdetection3d.readthedocs.io/en/latest/advanced_guides/datasets/nuscenes.html)).
+We use [KITTI](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) and [nuScenes](https://www.nuscenes.org/) datasets, please follow the official instructions for set up ([KITTI instruction](https://mmdetection3d.readthedocs.io/en/latest/advanced_guides/datasets/kitti.html), [nuScenes instruction](https://mmdetection3d.readthedocs.io/en/latest/advanced_guides/datasets/nuscenes.html)).
 
 # Run
 
@@ -38,8 +38,8 @@ bash ./tools/dist_train_kd.sh <distillation_cfg> 8
 Many thanks to following codes that help us a lot in building this codebase:
 
 - [PointDistiller](https://github.com/RunpeiDong/PointDistiller)
+- [Towards Efficient 3D Object Detection with Knowledge Distillation](https://github.com/CVMI-Lab/SparseKD)
 - [mmdetection](https://github.com/open-mmlab/mmdetection)
-- [mmrotate](https://github.com/open-mmlab/mmrotate)
 - [mmdetection3d](https://github.com/open-mmlab/mmdetection3d)
 
 # Citation
